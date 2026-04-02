@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alessandra Gni – Academic Website</title>
+  <meta name="description" content="Academic website of Alessandra Gni – researcher in statistics and data science." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwOKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#" class="nav-brand">Alessandra Gni</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+
+    <!-- ===== HERO / PROFILE ===== -->
+    <section id="about" class="section hero-section">
+      <div class="container hero-layout">
+
+        <!-- Profile card -->
+        <aside class="profile-card">
+          <div class="profile-photo-wrapper">
+            <img
+              src="assets/images/profile.jpg"
+              alt="Portrait of Alessandra Gni"
+              class="profile-photo"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+            />
+            <div class="profile-photo-placeholder" style="display:none;">
+              <i class="fa-solid fa-user"></i>
+            </div>
+          </div>
+
+          <h1 class="profile-name">Alessandra Gni</h1>
+          <p class="profile-title">PhD Candidate / Researcher</p>
+          <p class="profile-affiliation">
+            <i class="fa-solid fa-building-columns"></i>
+            Department of Statistics<br />
+            University Name
+          </p>
+
+          <!-- Social links -->
+          <ul class="social-links">
+            <li>
+              <a href="https://scholar.google.com/citations?user=YOURPROFILE" target="_blank" rel="noopener" aria-label="Google Scholar">
+                <i class="fa-brands fa-google-scholar"></i>
+                <span>Google Scholar</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/alessandragni" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/YOURPROFILE" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" rel="noopener" aria-label="ORCID">
+                <i class="fa-brands fa-orcid"></i>
+                <span>ORCID</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:alessandra.gni@university.edu" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+              </a>
+            </li>
+          </ul>
+
+          <a href="assets/files/cv.pdf" class="btn btn-outline" target="_blank" rel="noopener">
+            <i class="fa-solid fa-file-pdf"></i> Download CV
+          </a>
+        </aside>
+
+        <!-- Bio -->
+        <div class="bio-content">
+          <h2 class="section-title">About Me</h2>
+          <p>
+            Welcome! I am a researcher in <strong>statistics and data science</strong> at [University Name].
+            My work focuses on developing statistical methods for complex, high-dimensional data with applications in
+            [your application domain].
+          </p>
+          <p>
+            I obtained my MSc in [Degree] from [University] in [Year] and I am currently pursuing my PhD under
+            the supervision of [Supervisor Name]. I am broadly interested in problems at the interface of
+            statistical theory and its practical applications.
+          </p>
+          <p>
+            Before joining [University], I [briefly describe previous positions, internships, or relevant background].
+            In my free time, I enjoy [hobbies / interests].
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== RESEARCH INTERESTS ===== -->
+    <section id="research" class="section alt-section">
+      <div class="container">
+        <h2 class="section-title centered">Research Interests</h2>
+        <div class="interests-grid">
+          <div class="interest-card">
+            <div class="interest-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <h3>Statistical Modelling</h3>
+            <p>Development of flexible statistical models for complex structured data, including hierarchical and longitudinal settings.</p>
+          </div>
+          <div class="interest-card">
+            <div class="interest-icon"><i class="fa-solid fa-brain"></i></div>
+            <h3>Machine Learning</h3>
+            <p>Theoretical foundations and practical applications of machine learning methods, with a focus on interpretability and uncertainty quantification.</p>
+          </div>
+          <div class="interest-card">
+            <div class="interest-icon"><i class="fa-solid fa-dna"></i></div>
+            <h3>Biostatistics</h3>
+            <p>Statistical methods for biomedical data, including survival analysis, clinical trials, and omics data integration.</p>
+          </div>
+          <div class="interest-card">
+            <div class="interest-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+            <h3>Functional Data Analysis</h3>
+            <p>Methods for analysing data that are intrinsically functional or spatial, such as time series and spatial processes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== NEWS ===== -->
+    <section id="news" class="section">
+      <div class="container">
+        <h2 class="section-title centered">News</h2>
+        <ul class="news-list">
+          <li class="news-item">
+            <span class="news-date">April 2025</span>
+            <span class="news-text">
+              New paper submitted: "<em>Title of Your Paper</em>". Preprint available on arXiv.
+            </span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">March 2025</span>
+            <span class="news-text">
+              Presented our work at <a href="#" target="_blank" rel="noopener">Conference Name 2025</a> in [City, Country].
+            </span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">January 2025</span>
+            <span class="news-text">
+              Paper accepted in <em>Journal Name</em>. DOI: <a href="#" target="_blank" rel="noopener">10.xxxx/xxxxx</a>.
+            </span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">October 2024</span>
+            <span class="news-text">
+              Awarded [Scholarship / Grant / Award Name] by [Organisation].
+            </span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">September 2024</span>
+            <span class="news-text">
+              Started PhD programme in Statistics at [University Name].
+            </span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== PUBLICATIONS ===== -->
+    <section id="publications" class="section alt-section">
+      <div class="container">
+        <h2 class="section-title centered">Publications</h2>
+
+        <p class="section-subtitle">
+          For a complete and up-to-date list, see my
+          <a href="https://scholar.google.com/citations?user=YOURPROFILE" target="_blank" rel="noopener">Google Scholar profile</a>.
+        </p>
+
+        <!-- Journal Articles -->
+        <h3 class="pub-category">Journal Articles</h3>
+        <ol class="pub-list" reversed>
+          <li class="pub-item">
+            <div class="pub-title">
+              Title of Your Journal Article
+            </div>
+            <div class="pub-authors">
+              <strong>Gni, A.</strong>, Coauthor, B., &amp; Coauthor, C.
+            </div>
+            <div class="pub-venue">
+              <em>Journal of Statistics</em>, 12(3), 456–478, 2025.
+            </div>
+            <div class="pub-links">
+              <a href="#" class="pub-link" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> PDF</a>
+              <a href="#" class="pub-link" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+              <a href="#" class="pub-link" target="_blank" rel="noopener"><i class="fa-solid fa-link"></i> DOI</a>
+            </div>
+          </li>
+          <li class="pub-item">
+            <div class="pub-title">
+              Title of Another Journal Article
+            </div>
+            <div class="pub-authors">
+              Coauthor, B., <strong>Gni, A.</strong>, &amp; Coauthor, D.
+            </div>
+            <div class="pub-venue">
+              <em>Annals of Applied Statistics</em>, 8(1), 123–145, 2024.
+            </div>
+            <div class="pub-links">
+              <a href="#" class="pub-link" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> PDF</a>
+              <a href="#" class="pub-link" target="_blank" rel="noopener"><i class="fa-solid fa-link"></i> DOI</a>
+            </div>
+          </li>
+        </ol>
+
+        <!-- Preprints -->
+        <h3 class="pub-category">Preprints &amp; Working Papers</h3>
+        <ol class="pub-list">
+          <li class="pub-item">
+            <div class="pub-title">
+              Title of Your Preprint
+            </div>
+            <div class="pub-authors">
+              <strong>Gni, A.</strong> &amp; Coauthor, E.
+            </div>
+            <div class="pub-venue">
+              <em>arXiv preprint</em>, arXiv:2501.00000, 2025.
+            </div>
+            <div class="pub-links">
+              <a href="#" class="pub-link" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> Preprint</a>
+              <a href="#" class="pub-link" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </li>
+        </ol>
+
+        <!-- Conference Papers -->
+        <h3 class="pub-category">Conference Proceedings</h3>
+        <ol class="pub-list">
+          <li class="pub-item">
+            <div class="pub-title">
+              Title of Your Conference Paper
+            </div>
+            <div class="pub-authors">
+              <strong>Gni, A.</strong>, Coauthor, B., &amp; Coauthor, F.
+            </div>
+            <div class="pub-venue">
+              <em>Proceedings of Conference Name (CONF)</em>, 2024.
+            </div>
+            <div class="pub-links">
+              <a href="#" class="pub-link" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> PDF</a>
+              <a href="#" class="pub-link" target="_blank" rel="noopener"><i class="fa-regular fa-rectangle-list"></i> Poster</a>
+            </div>
+          </li>
+        </ol>
+
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section">
+      <div class="container contact-layout">
+        <div>
+          <h2 class="section-title">Contact</h2>
+          <p>Feel free to reach out if you are interested in collaborating, have questions about my research, or want to discuss potential opportunities.</p>
+
+          <address class="contact-info">
+            <p>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:alessandra.gni@university.edu">alessandra.gni@university.edu</a>
+            </p>
+            <p>
+              <i class="fa-solid fa-location-dot"></i>
+              Department of Statistics<br />
+              Building Name, Room Number<br />
+              University Address<br />
+              City, Country
+            </p>
+          </address>
+        </div>
+        <div class="contact-links-grid">
+          <a href="https://scholar.google.com/citations?user=YOURPROFILE" class="contact-card" target="_blank" rel="noopener">
+            <i class="fa-brands fa-google-scholar"></i>
+            <span>Google Scholar</span>
+          </a>
+          <a href="https://github.com/alessandragni" class="contact-card" target="_blank" rel="noopener">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/YOURPROFILE" class="contact-card" target="_blank" rel="noopener">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://orcid.org/0000-0000-0000-0000" class="contact-card" target="_blank" rel="noopener">
+            <i class="fa-brands fa-orcid"></i>
+            <span>ORCID</span>
+          </a>
+          <a href="https://twitter.com/YOURHANDLE" class="contact-card" target="_blank" rel="noopener">
+            <i class="fa-brands fa-x-twitter"></i>
+            <span>X / Twitter</span>
+          </a>
+          <a href="assets/files/cv.pdf" class="contact-card" target="_blank" rel="noopener">
+            <i class="fa-solid fa-file-pdf"></i>
+            <span>Download CV</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        &copy; <span id="year"></span> Alessandra Gni.
+        Built with <i class="fa-solid fa-heart" style="color:#e74c3c;"></i> and plain HTML/CSS.
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
