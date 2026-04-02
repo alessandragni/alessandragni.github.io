@@ -6,7 +6,7 @@
 :root {
   --clr-primary:    #2c5f8a;   /* deep blue */
   --clr-primary-lt: #3a78ad;
-  --clr-accent:     #e07b39;   /* warm orange */
+  --clr-accent:     #2c5f8a;   /* same */
   --clr-bg:         #ffffff;
   --clr-bg-alt:     #f6f8fb;
   --clr-text:       #2d2d2d;
