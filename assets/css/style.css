@@ -382,8 +382,8 @@ address { font-style: normal; }
   transition: background .2s, color .2s;
 }
 .pub-link img {
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   flex-shrink: 0;
 }
 .pub-link:hover {
