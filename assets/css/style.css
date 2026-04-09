@@ -377,7 +377,7 @@ address { font-style: normal; }
   background: var(--clr-bg);
   border: 1px solid var(--clr-primary);
   color: var(--clr-primary);
-  padding: .2rem .65rem;
+  padding: .2rem .75rem;
   border-radius: 4px;
   transition: background .2s, color .2s;
 }
