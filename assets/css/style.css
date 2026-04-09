@@ -381,11 +381,6 @@ address { font-style: normal; }
   border-radius: 4px;
   transition: background .2s, color .2s;
 }
-.pub-link img {
-  width: 60px;
-  height: 60px;
-  flex-shrink: 0;
-}
 .pub-link:hover {
   background: var(--clr-primary);
   color: #fff;
