@@ -377,9 +377,14 @@ address { font-style: normal; }
   background: var(--clr-bg);
   border: 1px solid var(--clr-primary);
   color: var(--clr-primary);
-  padding: .2rem .95rem;
+  padding: .2rem .8rem;
   border-radius: 4px;
   transition: background .2s, color .2s;
+}
+.pub-link img {
+  height: 1em;  /* or a fixed height like 16px */
+  width: auto;
+  flex-shrink: 0;  /* prevents shrinking in flex container */
 }
 .pub-link:hover {
   background: var(--clr-primary);
